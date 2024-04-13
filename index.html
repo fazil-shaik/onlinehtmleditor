@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online HTML Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="dark-mode-toggle" class="fixed-checkbox">
+  <h2 class="main">Online HTML Editor</h2>
+  <div>
+    <label for="filename">Filename:</label>
+    <input type="text" id="filename">
+    <br><br>
+    <textarea id="editor"></textarea>
+    <br><br>
+    <button class="btn" onclick="saveCode()">Save</button>
+  </div>
+  <div class="preview" id="preview">
+    <h2>Preview</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

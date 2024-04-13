@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#editor {
+  width: calc(100% - 40px);
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.preview {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fixed-checkbox {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
